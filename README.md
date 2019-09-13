@@ -1,6 +1,6 @@
 # ECEN 5783 EID PROJECT-1 (Fall-2019)
 
-# Repository Collaborators/Developers: 
+# Project collaborators/developers: 
 
 1. **Rushi James Macwan**
 2. **Poorn Mehta**
