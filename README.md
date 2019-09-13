@@ -1,6 +1,4 @@
-# ECEN 5783 Embedded Interface Design [Fall-2019]
-
-**PROJECT-1**
+# ECEN 5783 EID PROJECT-1 (Fall-2019)
 
 # Repository Collaborators/Developers: 
 
