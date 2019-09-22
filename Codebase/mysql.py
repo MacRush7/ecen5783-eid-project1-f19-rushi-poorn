@@ -1,5 +1,6 @@
 # EID Project-1
-# 
+# Authors: Rushi James Macwan, Poorn Mehta 
+#
 # MySQL Database - Python Script
 #
 # @Brief: This script has been written to interface the MySQL database with the python-based
