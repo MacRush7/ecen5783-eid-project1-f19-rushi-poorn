@@ -152,7 +152,7 @@ For the project work, the breakup of the content was made into the following seg
 
 **Code Commenting & Integration:**
 
-•	This task was performed individually by **Poorn Mehta** and was later merged with the project.
+•	This task was performed as a team by **both the contributors** in the team. However, the contribution breakup was also dependent on the above contributions.
 
 **Integrated testing:**
 
@@ -160,7 +160,7 @@ For the project work, the breakup of the content was made into the following seg
 
 **GitHub documentation management:**
 
-•	This task was performed individually by **Rushi Macwan** and was later merged with the project.
+•	This task was performed as a team by **both the contributors** in the team. However, the contribution breakup was also dependent on the above contributions.
 
 # Project Additions
 
