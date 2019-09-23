@@ -9,6 +9,8 @@
 
 This repository is fully owned by **Rushi James Macwan** and **Poorn Mehta**. All content on this repository is solely the work of **Rushi James Macwan** and **Poorn Mehta**. However, all external support and guidance taken in completing the work available on this repository has been clearly cited and credited wherever necessary as per the course guidelines.
 
+For references, please visit the References.pdf file available in the main directory which contains an exhaustive list of all the external resources that were utilized and resourceful in completing this project.
+
 # Installation Instructions
 
 This project involves the use of the following elements:
