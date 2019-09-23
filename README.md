@@ -163,3 +163,15 @@ For the project work, the breakup of the content was made into the following seg
 •	This task was performed individually by **Rushi Macwan** and was later merged with the project.
 
 # Project Additions
+
+As part of an extended effort for this project, the following additions were made to the project requirements:
+
+1.	The user has the ability to modify the rate at which the DHT22 sensor is run. For example, in the project requirement, the sensor is required to run with a period of 15 seconds. As part of the additional feature, the user can actually change the period to a different value (e.g. 5 seconds).
+
+2.	The user has the ability to change the upper limit of the number of data samples acquired from the DHT22 sensor after which the UI would promptly terminate its execution – as per the project requirement.
+
+3.	An extended feature has been added that produces a graph of the last 10 data samples that are available in the MySQL database. However, in addition to the requirement, the graph would still display 10 data samples even though the database table may contain less than 10 data samples. In such cases, the algorithm will append the remaining unavailable data samples with a 0 value in the graph.
+
+4.	An extra credit feature of conversion from degrees C to degree F and vice-versa has been added to the algorithm for a more responsive and interactive UI.
+
+5.	The status line on the UI provides an interactive feedback to the user. For example, keeping in mind the limitations of the DHT22 sensor, if the user sends multiple requests for an instantaneous data sample (i.e. temperature and humidity) to the sensor, the UI status line would report the error since the sensor can collect data samples at the highest rate of only one sample per every 2 seconds.
