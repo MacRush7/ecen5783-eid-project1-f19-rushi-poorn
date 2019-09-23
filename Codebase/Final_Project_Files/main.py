@@ -15,7 +15,7 @@
 # below and they are provided in the References.pdf file available in the main directory
 # of this repository.
 #
-# ::: PLEASE NOTE :::
+# PLEASE NOTE:
 #
 # The following list of webpages (references) were heavily used to develop this project codebase. 
 # In many cases, the code was first copied from these webpages, and then was modified to fit the 
