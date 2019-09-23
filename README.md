@@ -126,8 +126,8 @@ For the project work, the breakup of the content was made into the following seg
 3.	Design and integration of QT GUI
 4.	Design and integration of the MySQL database
 5.	Addition of required/additional features to the project
-6.	Integrated testing
-7.	Code commenting
+6.	Code commenting & Integration
+7.	Integrated testing
 8.	GitHub and documentation management
 
 **Interfacing of DHT22 with the Pi:**
@@ -150,13 +150,13 @@ For the project work, the breakup of the content was made into the following seg
 
 •	This task was performed as a team by **both the contributors** in the team. However, the contribution breakup was also dependent on the above contributions.
 
+**Code Commenting & Integration:**
+
+•	This task was performed individually by **Poorn Mehta** and was later merged with the project.
+
 **Integrated testing:**
 
 •	This task was performed as a team by **both the contributors** in the team. However, the contribution breakup was also dependent on the above contributions.
-
-**Code Commenting:**
-
-•	This task was performed individually by **Poorn Mehta** and was later merged with the project.
 
 **GitHub documentation management:**
 
