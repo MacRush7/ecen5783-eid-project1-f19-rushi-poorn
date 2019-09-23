@@ -31,7 +31,9 @@ The explanation below dives deep into setting up the Raspberry Pi 3B to run each
 •	The final step is to update the Pi with the recent distributions of the Raspbian Buster OS and the same can be done by running the following commands on the terminal:
 
 sudo apt-get update
+
 sudo apt-get upgrade
+
 sudo apt-get install realvnc-vnc-server realvnc-vnc-viewer
 
 **DHT22 sensor library installation:**
@@ -45,12 +47,19 @@ Python development & libraries:
 •	Since we already installed python3 and pip tools in the previous section, here, we will install other important python libraries that can come handy. Please, execute the below commands so that the libraries are installed:
 
 sudo pip3 install Requests
+
 sudo pip3 install Pillow
+
 sudo pip3 install beautifulsoup4
+
 sudo pip3 install Twisted
+
 sudo pip3 install NumPy
+
 sudo pip3 install SciPy
+
 sudo pip3 install SymPy
+
 sudo pip3 install matplotlib
 
 **Qt & PyQt Installation:**
@@ -58,7 +67,9 @@ sudo pip3 install matplotlib
 •	To install the Qt and PyQt libraries, please run the below commands on the Pi CLI:
 
 sudo apt-get install qt5-default pyqt5-dev pyqt5-dev-tools
+
 sudo apt-get install qttools5-dev-tools
+
 sudo apt-get install python3-tk
 
 Running these commands will install the Qt and PyQt tools on the Pi. Also, the third command will install the Tkinter python application for GUI development natively on the Pi.
@@ -68,6 +79,7 @@ Running these commands will install the Qt and PyQt tools on the Pi. Also, the t
 •	To set up the MySQL database for quick storage and acquisition of the voluminous data, we use the MySQL database tool. The first step to use the MySQL database would be to create a database on the target before the Python script is actually run. Please, follow the below commands to set up the MySQL database on the Pi:
 
 sudo apt-get install python-mysqldb
+
 sudo apt-get install mariadb-server
 
 •	Once the above commands are successfully run, the next step would be to secure the MySQL server using the below command:
@@ -79,10 +91,15 @@ Please note, for the above command, the user should answer ‘Y’ to all the qu
 •	The next step is to create a MySQL database on the Pi and to do that, please run the below commands on the CLI (terminal):
 
 sudo mysql –u root –p	# user will be prompted to enter the password
+
 CREATE DATABASE <name of the database you want to create>;
+
 CREATE USER ‘root’@’localhost’ IDENTIFIED BY ‘root’;
+
 GRANT ALL PRIVILEGES ON <database name>.* TO ‘root’@’localhost’;
+
 FLUSH PRIVILEGES;
+
 The resource for the above commands can be found here - https://pimylifeup.com/raspberry-pi-mysql/
 
 •	The last step under this section then would be to run the main.py script that will by itself modify the MySQL database tables as required for data storage and acquisition.
