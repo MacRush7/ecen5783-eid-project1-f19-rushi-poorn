@@ -1,3 +1,24 @@
+# EID Project-1 Main Python Script
+# @AUTHORS: Poorn Mehta and Rushi James Macwan
+#
+# @BRIEF: This is the main project python script that is integrated with all the different
+# project elements (i.e. DHT22 sensor driver, Qt GUI, MatPlotLib algorithm to generate
+# required instantaneous graphs and the MySQL database integration). All the algorithm
+# segments covered in this python script are responsible for a successful execution of
+# the project.
+#
+# @REFERENCES: Certain references that were highly resourceful for this project are given
+# below. However, there are other general references in addition to the ones mentioned
+# below and they are provided in the References.pdf file available in the main directory
+# of this repository.
+#
+# LIST OF REFERENCES:
+#
+# http://www.mikusa.com/python-mysql-docs/introduction.html
+# https://pythonspot.com/mysql-with-python/
+# https://stackoverflow.com/questions/155054/mysql-timestamp-column
+# https://stackoverflow.com/questions/15271907/python-mysql-update-working-but-not-updating-table
+# https://www.a2hosting.com/kb/developer-corner/mysql/managing-mysql-databases-and-users-from-the-command-line
 # https://www.geeksforgeeks.org/global-local-variables-python/
 # https://stackoverflow.com/questions/24035660/how-to-read-from-qText_Main-in-python
 # https://matplotlib.org/examples/user_interfaces/embedding_in_qt5.html
@@ -11,7 +32,6 @@
 # https://stackoverflow.com/questions/44193227/pyqt5-how-can-i-draw-inside-existing-qgraphicsview
 # https://pythonspot.com/pyqt5-matplotlib/
 # https://stackoverflow.com/questions/43947318/plotting-matplotlib-figure-inside-qwidget-using-qt-designer-form-and-pyqt5
-
 # https://stackoverflow.com/questions/36555153/pyqt5-closing-terminating-application
 # https://stackoverflow.com/questions/38283705/proper-way-to-quit-exit-a-pyqt-program
 # http://www.learningaboutelectronics.com/Articles/How-to-delete-all-rows-of-a-MySQL-table-in-Python.php
@@ -20,7 +40,6 @@
 # https://stackoverflow.com/questions/5687718/how-can-i-insert-data-into-a-mysql-database
 # https://pimylifeup.com/raspberry-pi-mysql/
 # https://pythonspot.com/mysql-with-python/
-
 # https://stackoverflow.com/questions/4289331/how-to-extract-numbers-from-a-string-in-python
 # https://machinekoder.com/how-to-not-shoot-yourself-in-the-foot-using-python-qt/
 # https://stackoverflow.com/questions/4172448/is-it-possible-to-break-a-long-line-to-multiple-lines-in-python
@@ -29,6 +48,23 @@
 # https://matplotlib.org/tutorials/introductory/pyplot.html
 # https://www.w3resource.com/mysql-exercises/subquery-exercises/write-a-query-to-select-last-10-records-from-a-table.php
 # https://www.programiz.com/python-programming/array
+#
+# INSTRUCTIONS TO RUN THIS SCRIPT:
+#
+# To run this script, please run the below command on the terminal:
+#
+# ./main.py
+#
+# INSTALLATION INSTRUCTIONS:
+#
+# For general instructions on installation of the tools required to run this script have been provided in the main
+# directory inside the ReadMe.md file. Please, refer to that for detailed explanation.
+
+###################################################################################################################
+## CODE BEGINS
+###################################################################################################################
+
+#!/usr/bin/env python3
 
 # General Includes
 import array as arr
