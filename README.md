@@ -104,7 +104,49 @@ The resource for the above commands can be found here - https://pimylifeup.com/r
 
 •	The last step under this section then would be to run the main.py script that will by itself modify the MySQL database tables as required for data storage and acquisition.
 
-
 # Project Work
+
+For the project work, the breakup of the content was made into the following segments that involved different design and development goals:
+
+1.	Interfacing of DHT22 with the Pi
+2.	Design and integration of Matplotlib algorithm to create appropriate graphs
+3.	Design and integration of QT GUI
+4.	Design and integration of the MySQL database
+5.	Addition of required/additional features to the project
+6.	Integrated testing
+7.	Code commenting
+8.	GitHub and documentation management
+
+**Interfacing of DHT22 with the Pi:**
+
+•	This task was performed as a team by both the contributors in the team. Initially, the design and development of this segment was done individually but it was later merged into one working piece.
+
+**Design and integration of the Matplotlib algorithm:**
+
+•	This task was performed as a team by both the contributors in the team. The Matplotlib tool was explored on both ends and was later brought into one piece.
+
+**Design and integration of the QT GUI:**
+
+•	This task was performed individually by Poorn Mehta and was later merged with the project.
+
+**Design and integration of the MySQL database:**
+
+•	This task was performed individually by Rushi Macwan and was later merged with the project.
+
+**Addition of required/additional features to the Project:**
+
+•	This task was performed as a team by both the contributors in the team. However, the contribution breakup was also dependent on the above contributions.
+
+**Integrated testing:**
+
+•	This task was performed as a team by both the contributors in the team. However, the contribution breakup was also dependent on the above contributions.
+
+**Code Commenting:**
+
+•	This task was performed individually by Poorn Mehta and was later merged with the project.
+
+**GitHub documentation management:**
+
+•	This task was performed individually by Rushi Macwan and was later merged with the project.
 
 # Project Additions
