@@ -55,7 +55,7 @@ sudo python3 -m pip install --upgrade pip setuptools wheel
 
 sudo pip3 install Adafruit_DHT
 
-Python development & libraries:
+**Python development & libraries:**
 
 •	Since we already installed python3 and pip tools in the previous section, here, we will install other important python libraries that can come handy. Please, execute the below commands so that the libraries are installed:
 
