@@ -26,10 +26,15 @@ The explanation below dives deep into setting up the Raspberry Pi 3B to run each
 **Raspberry Pi 3B setup – installation of Raspbian Buster OS & VNC:**
 
 •	The first step to begin with this project is to install the Raspbian Buster OS on the Raspberry Pi 3B. To do so, we must first download the “Raspbian Buster with desktop and recommended software” OS zipped image file on the host machine (e.g. a dedicated Windows/Mac computer). Link for downloading: https://www.raspberrypi.org/downloads/raspbian/
+
 •	The second step is to unzip the file and use a software that can flash the image file to an SD card (that is already formatted). The software required to do this task is available here: https://www.balena.io/etcher/ 
+
 •	The third step is to download the “balenaEtcher” software, load the image file and flash the image file to the SD card. Once that is done, we simply need to load the SD card into the Pi and attach the peripherals (i.e. an HDMI screen and a USB keyboard & mouse).
+
 •	The fourth step is to set up the Pi by entering a username and password to login every time.
+
 •	An fifth step here is to install the VNC server on the raspberry Pi – but is not explained thoroughly here but the explanation for setting it up can be found here - https://www.raspberrypi.org/documentation/remote-access/vnc/ 
+
 •	The final step is to update the Pi with the recent distributions of the Raspbian Buster OS and the same can be done by running the following commands on the terminal:
 
 sudo apt-get update
@@ -41,11 +46,17 @@ sudo apt-get install realvnc-vnc-server realvnc-vnc-viewer
 **DHT22 sensor library installation:**
 
 •	To install the DHT22 sensor library, please refer to the link: https://pimylifeup.com/raspberry-pi-humidity-sensor-dht22/ 
+
 •	The first step in this section is to set up the python3 and pip tools so that the sensor can be run through a python script while the pip tool is a packet management system that installs and manages python packages for the project. Please, run the below commands:
+
 sudo apt-get install python3-dev python3-pip
+
 sudo python3 -m pip install --upgrade pip setuptools wheel
+
 sudo pip3 install Adafruit_DHT
+
 Python development & libraries:
+
 •	Since we already installed python3 and pip tools in the previous section, here, we will install other important python libraries that can come handy. Please, execute the below commands so that the libraries are installed:
 
 sudo pip3 install Requests
