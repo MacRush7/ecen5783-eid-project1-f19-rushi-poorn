@@ -1,3 +1,6 @@
+#!/usr/bin/python3
+# -*- coding: utf-8 -*-
+
 # EID Project-1 Main Python Script
 # @AUTHORS: Poorn Mehta and Rushi James Macwan
 #
@@ -48,6 +51,7 @@
 # https://matplotlib.org/tutorials/introductory/pyplot.html
 # https://www.w3resource.com/mysql-exercises/subquery-exercises/write-a-query-to-select-last-10-records-from-a-table.php
 # https://www.programiz.com/python-programming/array
+# https://stackoverflow.com/questions/22275350/xx-py-line-1-import-command-not-found
 #
 # INSTRUCTIONS TO RUN THIS SCRIPT:
 #
@@ -63,8 +67,6 @@
 ###################################################################################################################
 ## CODE BEGINS
 ###################################################################################################################
-
-#!/usr/bin/env python3
 
 # General Includes
 import array as arr
