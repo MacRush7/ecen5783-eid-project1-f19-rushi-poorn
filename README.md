@@ -119,34 +119,34 @@ For the project work, the breakup of the content was made into the following seg
 
 **Interfacing of DHT22 with the Pi:**
 
-•	This task was performed as a team by both the contributors in the team. Initially, the design and development of this segment was done individually but it was later merged into one working piece.
+•	This task was performed as a team by **both the contributors** in the team. Initially, the design and development of this segment was done individually but it was later merged into one working piece.
 
 **Design and integration of the Matplotlib algorithm:**
 
-•	This task was performed as a team by both the contributors in the team. The Matplotlib tool was explored on both ends and was later brought into one piece.
+•	This task was performed as a team by **both the contributors** in the team. The Matplotlib tool was explored on both ends and was later brought into one piece.
 
 **Design and integration of the QT GUI:**
 
-•	This task was performed individually by Poorn Mehta and was later merged with the project.
+•	This task was performed individually by **Poorn Mehta** and was later merged with the project.
 
 **Design and integration of the MySQL database:**
 
-•	This task was performed individually by Rushi Macwan and was later merged with the project.
+•	This task was performed individually by **Rushi Macwan** and was later merged with the project.
 
 **Addition of required/additional features to the Project:**
 
-•	This task was performed as a team by both the contributors in the team. However, the contribution breakup was also dependent on the above contributions.
+•	This task was performed as a team by **both the contributors** in the team. However, the contribution breakup was also dependent on the above contributions.
 
 **Integrated testing:**
 
-•	This task was performed as a team by both the contributors in the team. However, the contribution breakup was also dependent on the above contributions.
+•	This task was performed as a team by **both the contributors** in the team. However, the contribution breakup was also dependent on the above contributions.
 
 **Code Commenting:**
 
-•	This task was performed individually by Poorn Mehta and was later merged with the project.
+•	This task was performed individually by **Poorn Mehta** and was later merged with the project.
 
 **GitHub documentation management:**
 
-•	This task was performed individually by Rushi Macwan and was later merged with the project.
+•	This task was performed individually by **Rushi Macwan** and was later merged with the project.
 
 # Project Additions
